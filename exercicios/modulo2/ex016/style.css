@@ -1,0 +1,30 @@
+@charset UTF-8;
+
+* {
+        font-family: JetBrains Mono, monospace, sans-serif;   
+}
+p {text-align: justify;}
+
+body {
+    background-image: linear-gradient(to right, #433e3f, #7a7265);
+}
+        
+main {
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 600px;
+    padding: 10px;
+    margin:auto
+    
+}
+
+h2 {
+    color: #8e6e53;
+}
+
+h1 {
+    color: #c69c72;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.164);
+}

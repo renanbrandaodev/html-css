@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+        # = :id
+        . = class
+        : = pseudo-class
+        > = :child
+        */
+        a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+        }
+        a:hover {
+            color: rgb(255, 0, 0);
+        }
+        a:visited {
+            color: rgb(247, 12, 215);
+        }
+        a:active {
+            color: rgb(23, 236, 23);
+        }
+        .especial::after {
+            content: "-";
+        }
+        .especial::before {
+            content: "-";
+        }
+        .especial {
+            color: rgb(0, 0, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li>
+            <a href="https://www.youtube.com" target="_blank" class="especial">Youtube</a>
+        </li>
+        <li>
+            <a href="https://www.twitch.tv" target="_blank">Twitch</a>
+        </li>
+        <li>
+            <a href="https://www.cursoemvideo.com" target="_blank" class="especial">Curso em video</a>
+        </li>
+    </ul>
+    
+</body>
+</html>
