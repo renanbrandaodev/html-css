@@ -7,6 +7,11 @@
     src: url(fontes/Sriracha-Regular.ttf) format('opentype'); 
     font-weight: normal;
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 }
 
 body {
@@ -30,9 +35,19 @@ header {
     font-size: 1.5em;
 }
 
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: rgba(128, 128, 128, 0.345);
+    text-decoration: underline
+}
+
 header > h1 {
     font-family: var(--font-cordel);
-    font-size: 10vw;
+    font-size: 7vw;
     color: white;
     text-align: center;
     padding: 0;
@@ -49,18 +64,21 @@ header > nav {
 
 section {
     font-family: var(--font-poema);
-    font-size: 5vw;
+    font-size: 3.5vw;
 }
 
-.primeiro {
-    box-shadow:rgba(0, 0, 0, 0.302) 5px 5px 5px 5px ;
+.semimagem {
+    line-height: 2em;
+    padding-left: 40px;
 }
 
-.primeiroparagrafo {
+.semimagempr{
     margin: 0;
+    padding: 40px 20px 20px 20px
 }
 
-.segundo {
+.imagem {
+    padding-left: 40px;
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
     background-position: right center;
@@ -69,12 +87,33 @@ section {
     color: white;
     margin-top: 0;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.446);
+    
 }
 
-.segundoparagrafo {
+.imagempr {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 2em];
+
+}
+
+#img2 {
+    background-image: url(imagens/background002.jpg);
+
+}
+
+footer {
+    padding: 8px;
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+footer > p {
+    font-size: 1.1em;
+    padding: 0;
     margin: 0;
-    padding:
 }
-
-
 
