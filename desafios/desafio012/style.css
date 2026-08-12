@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: 'sriracha';
+    src: url(fontes/Sriracha-Regular.ttf) format('opentype'); 
+    font-weight: normal;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-poema: 'sriracha';
+    --font-cordel: 'Passion One';
+}
+
+header {
+    background-color: black;
+    height: 200px;
+    padding: 50px;
+    margin: 0;
+}
+
+.maiscula {
+    font-size: 1.5em;
+}
+
+header > h1 {
+    font-family: var(--font-cordel);
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+header > nav {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+section {
+    font-family: var(--font-poema);
+    font-size: 5vw;
+}
+
+.primeiro {
+    box-shadow:rgba(0, 0, 0, 0.302) 5px 5px 5px 5px ;
+}
+
+.primeiroparagrafo {
+    margin: 0;
+}
+
+.segundo {
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    margin-top: 0;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.446);
+}
+
+.segundoparagrafo {
+    margin: 0;
+    padding:
+}
+
+
+
