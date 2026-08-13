@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'sriracha';
-    src: url(fontes/Sriracha-Regular.ttf) format('opentype'); 
+    src: url(../fontes/Sriracha-Regular.ttf) format('opentype'); 
     font-weight: normal;
 
 * {
@@ -79,7 +79,7 @@ section {
 
 .imagem {
     padding-left: 40px;
-    background-image: url(imagens/background001.jpg);
+    background-image: url(../imagens/background001.jpg);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
@@ -94,12 +94,12 @@ section {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.5);
-    line-height: 2em];
+    line-height: 2em;
 
 }
 
 #img2 {
-    background-image: url(imagens/background002.jpg);
+    background-image: url(../imagens/background002.jpg);
 
 }
 
