@@ -117,3 +117,13 @@ footer > p {
     margin: 0;
 }
 
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: rgba(128, 128, 128, 0.345);
+    text-decoration: underline
+}
+
