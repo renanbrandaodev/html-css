@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* 
+
+Typical Device Breakpoints 2026 
+-------------------------------------
+
+Mobile (Extra Small): Up to 639px (targets portrait and landscape phones).
+
+Small Tablet: 640px – 767px (covers large phones in landscape and compact tablets).
+
+Tablet (Medium): 768px – 1023px (optimized for portrait tablet use like the iPad).
+
+Laptop (Large): 1024px – 1279px (fits landscape tablets and smaller laptop screens).
+
+Desktop (Extra Large): 1280px – 1535px (standard desktop displays).
+
+Large Desktop (2XL): 1536px and higher (wide external monitors and high-resolution setups).
+
+*/
+
+@media print {
+
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body {
+        background-image: url(../imagens/back-print.jpg); /* desnecessário */
+        
+        
+    }
+
+    main {
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+        text-decoration: overline;
+    }
+
+    main > h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: block; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+    
+}
+
+@media screen and (min-width: 639px){
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+        
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: block; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+        
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: block; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: none; }
+
+    
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+        
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }
+    img#pc { display: block; }
+    img#tv { display: none; }
+    
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+        
+    }
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }
+    img#pc { display: block; }
+    img#tv { display: none; }
+    
+}
+
+@media screen and (min-width: 1536px) {  
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+        
+    }  
+
+    img#phone { display: none; }
+    img#tablet { display: none; }
+    img#print { display: none; }
+    img#pc { display: none; }
+    img#tv { display: block; }
+}
