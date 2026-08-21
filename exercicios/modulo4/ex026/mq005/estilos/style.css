@@ -30,7 +30,7 @@ header > h1 {
 }
 
 #burguer:hover {
-    background-color: white;
+    background-color: rgb(168, 166, 166);
     color: black;
 }
 
