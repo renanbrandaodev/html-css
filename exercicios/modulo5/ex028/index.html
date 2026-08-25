@@ -9,13 +9,11 @@
             border: 3px solid blue;
             height: 250px;
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: auto auto auto;
+            grid-template: repeat(3,auto) / repeat(3, 100px);
             gap: 5px;
-            align-items: normal;
-            justify-items: normal;
-            align-content: normal;
-            justify-content: normal;
+            place-items: normal normal;
+            place-content: center center;
+
 
         
         }
