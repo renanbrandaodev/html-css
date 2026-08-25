@@ -16,7 +16,7 @@ body {
 
 header {
     width: 100vw;
-    background-color: aquamarine;
+    background-color: rgb(77, 75, 76);
     padding: 10px;
     display: flex;
     flex-flow: row nowrap;
@@ -31,7 +31,7 @@ header > h1 {
 
 header > nav {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: flex-end;
     
 }
@@ -45,6 +45,7 @@ header > nav > a {
     font-weight: bolder;
     margin: 5px;
     text-align: center;
+    transition-timing-function: ease;
 
 }
 
