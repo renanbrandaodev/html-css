@@ -82,6 +82,15 @@ Aqui estão os exercícios de cada módulo do curso — organizados por tema, da
 | [desafio014](desafios/desafio014) | Tabela de notas |
 | [desafio015](desafios/desafio015) | Desafio 15 |
 
+## 🚀 Projetos concluídos
+
+| Projeto | Descrição |
+|---------|-----------|
+| [projeto-portfolio](https://github.com/renanbrandaodev/projeto-portfolio) | Portfólio pessoal desenvolvido como projeto de conclusão do curso |
+| [projeto-formulario-auth](https://github.com/renanbrandaodev/projeto-formulario-auth) | Tela de login estilizada com CSS |
+| [projeto-redes-sociais](https://github.com/renanbrandaodev/projeto-redes-sociais) | Página de links de redes sociais |
+| [projeto-android](https://github.com/renanbrandaodev/projeto-android) | Site sobre o sistema operacional Android |
+
 ## 🛠️ Tecnologias
 
 - HTML5
